@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body {
+    background: radial-gradient(
+		circle,
+		rgba(0, 0, 255, 1) 0%,
+		rgba(255, 0, 0, 1) 100%
+	);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Sigmar One', fantasy;
+}
+
+#caption {
+    font-size: 14px;
+}
+
+.tbname:hover {
+    color: #0f0;
+}
+
+.mvp:hover {
+    color: #ffc107;
+}
+
+.Pats:hover {
+    color: blue;
+}
+
+.Bucs:hover {
+    color: #b1babf;
+}
+
+a:link {
+    color: #ffd54f;
+}
+
+a:visited {
+    color: #f57f17;
+}
+
+a:hover {
+    color: #cddc39;
+}
+
+a:active {
+    color: #dcdc51;
+}
