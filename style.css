@@ -1,54 +1,27 @@
-@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
 
 body {
-    background: radial-gradient(
-		circle,
-		rgba(0, 0, 255, 1) 0%,
-		rgba(255, 0, 0, 1) 100%
-	);
+    background-image: url('https://expertphotography.com/wp-content/uploads/2020/05/Nature-Photographer-Marco-Grassi.png');
+    background-color: forestgreen;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
-h1,
-h2,
-h3 {
-    font-family: 'Sigmar One', fantasy;
+div{
+    margin-top: 15px;
 }
 
-#caption {
-    font-size: 14px;
+.imgrow{
+    display: flex;
+    justify-content: center;
 }
-
-.tbname:hover {
-    color: #0f0;
-}
-
-.mvp:hover {
-    color: #ffc107;
-}
-
-.Pats:hover {
-    color: blue;
-}
-
-.Bucs:hover {
-    color: #b1babf;
-}
-
-a:link {
-    color: #ffd54f;
-}
-
-a:visited {
-    color: #f57f17;
-}
-
-a:hover {
-    color: #cddc39;
-}
-
-a:active {
-    color: #dcdc51;
+.speimage{
+    width: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: blue;
+    color: white;
 }
